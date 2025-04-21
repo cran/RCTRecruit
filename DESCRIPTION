@@ -2,7 +2,7 @@ Type: Package
 Package: RCTRecruit
 Title: Non-Parametric Recruitment Prediction for Randomized Clinical
         Trials
-Version: 0.1.24
+Version: 0.2.0
 Authors@R: c(
     person("Ioannis", "Malagaris", , "iomalaga@utmb.edu", 
            role = c("aut", "cre", "cph"),
@@ -16,7 +16,7 @@ Description: Accurate prediction of subject recruitment for Randomized Clinical
     on parametric assumptions. We present functions for non-parametric RCT
     recruitment prediction under several scenarios.
 License: MIT + file LICENSE
-Depends: R (>= 3.5)
+Depends: R (>= 4.2.0)
 Imports: lubridate, methods, Rcpp
 LinkingTo: Rcpp
 Encoding: UTF-8
@@ -27,7 +27,7 @@ BugReports: https://github.com/imalagaris/RCTRecruit/issues
 Suggests: knitr, magrittr, testthat (>= 3.0.0), withr
 Config/testthat/edition: 3
 NeedsCompilation: yes
-Packaged: 2025-01-14 22:29:52 UTC; iomalaga
+Packaged: 2025-04-21 18:13:56 UTC; ymala
 Author: Ioannis Malagaris [aut, cre, cph]
     (<https://orcid.org/0000-0001-5126-2068>),
   Alejandro Villasante-Tezanos [aut],
@@ -35,4 +35,4 @@ Author: Ioannis Malagaris [aut, cre, cph]
   Xiaoying Yu [aut]
 Maintainer: Ioannis Malagaris <iomalaga@utmb.edu>
 Repository: CRAN
-Date/Publication: 2025-01-15 19:00:04 UTC
+Date/Publication: 2025-04-21 18:30:02 UTC
